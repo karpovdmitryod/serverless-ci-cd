@@ -18,8 +18,6 @@ phases:
       - npm test
       # deploy integration testing environment
       - serverless deploy --stage test -v
-      # integration tests
-      - npm run-script integration
       # create directory for deployment packages
       - mkdir artifacts
       # create staging deployment package
