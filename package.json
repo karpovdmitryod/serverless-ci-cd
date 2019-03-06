@@ -3,6 +3,10 @@
   "version": "1.0.0",
   "description": "Demo Serverless project using CodeBuild and CodePipeline for CI/CD. Tutorial available at http://www.1strategy.com/blog/.",
   "main": "handler.js",
+  "jest": {
+    "verbose": true,
+    "testURL": "http://localhost/"
+  },
   "scripts": {
     "test": "jest __tests__/unit/*",
     "lint": "eslint */*.js",
